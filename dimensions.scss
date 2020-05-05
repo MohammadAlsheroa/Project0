@@ -1,0 +1,21 @@
+$height : 30%;
+$width : 40%;
+$sublink_color : #8A0505;
+
+img {
+  height: $height;
+  width: $width;
+    }
+ol a{
+  color:$sublink_color
+}
+
+.view_links{
+  font-size:25px;
+  text-align:center;
+}
+
+.Download_links{
+  @extend .view_links;
+  color:black;
+}
